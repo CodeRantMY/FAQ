@@ -51,7 +51,8 @@
   function setAddLink() {
     els.newFaqLink.href = newFileUrl(
       config.defaultNewFaqDirectory || "content/faqs/unanswered",
-      config.defaultNewFaqFilename || "new-faq.md"
+      config.defaultNewFaqFilename || "new-faq.md",
+      config.defaultNewFaqTemplate || ""
     );
   }
 
@@ -221,8 +222,12 @@
     return `https://github.com/${config.repoOwner}/${config.repoName}/edit/${config.branch}/${faq.path}`;
   }
 
-  function newFileUrl(directory, filename) {
-    return `https://github.com/${config.repoOwner}/${config.repoName}/new/${config.branch}/${directory}?filename=${encodeURIComponent(filename)}`;
+  function newFileUrl(directory, filename, template) {
+    const params = new URLSearchParams({ filename });
+    if (template) {
+      params.set("value", template);
+    }
+    return `https://github.com/${config.repoOwner}/${config.repoName}/new/${config.branch}/${directory}?${params.toString()}`;
   }
 
   function sourceUrl(faq) {

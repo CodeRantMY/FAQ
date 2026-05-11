@@ -18,6 +18,8 @@ Each FAQ front matter includes `last_updated`. Update that date when the answer 
 
 The website also shows `Last edited by` from Git history. `scripts/build_site_data.py` reads the latest commit author for each FAQ file. The GitHub Pages workflow checks out full history and rebuilds site data before deployment so this stays current.
 
+The **Add FAQ** button opens GitHub's create-file screen with a starter front matter template. Contributors should update the `id`, `title`, `category`, `category_slug`, `status`, `last_updated`, and body before submitting a pull request.
+
 ## Website Features
 
 - Category navigation
