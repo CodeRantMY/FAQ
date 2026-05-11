@@ -1,6 +1,10 @@
 # CodeRant FAQ
 
-Community FAQ for Bangladeshi developers and families living in Malaysia.
+In Malaysia, CodeRant is the only community of tech professionals from Bangladesh. The invite-only WhatsApp group was formed in 2017, and has now grown to a 200+ members community!
+
+Our goal is to foster growth among Bangladeshi tech professionals, through community-driven initiatives, meetups, and career-centric programs. Our community has people from renowned companies like Amazon, AirAsia, Petronas, Chubb, Moneylion, etc., and consists of members with diversified technical, leadership, and entrepreneurial backgrounds.
+
+We are committed to contributing to the Malaysian tech landscape as a group of experts and paving the way for future techies from Bangladesh, to come and grow in this magnificent land of opportunities.
 
 ## Browse the FAQs
 
