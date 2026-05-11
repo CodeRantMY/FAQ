@@ -49,7 +49,10 @@
   }
 
   function setAddLink() {
-    els.newFaqLink.href = editUrl({ path: config.defaultNewFaqPath || "content/faqs/unanswered/new-faq.md" });
+    els.newFaqLink.href = newFileUrl(
+      config.defaultNewFaqDirectory || "content/faqs/unanswered",
+      config.defaultNewFaqFilename || "new-faq.md"
+    );
   }
 
   function renderCategories() {
@@ -216,6 +219,10 @@
 
   function editUrl(faq) {
     return `https://github.com/${config.repoOwner}/${config.repoName}/edit/${config.branch}/${faq.path}`;
+  }
+
+  function newFileUrl(directory, filename) {
+    return `https://github.com/${config.repoOwner}/${config.repoName}/new/${config.branch}/${directory}?filename=${encodeURIComponent(filename)}`;
   }
 
   function sourceUrl(faq) {
