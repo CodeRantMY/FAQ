@@ -13,6 +13,8 @@
 - [How to pay internet bill](how-to-pay-internet-bill.md)
 - [How to relocate the current Internet connection](how-to-relocate-the-current-internet-connection.md)
 - [How to send money back home to Bangladesh?](how-to-send-money-back-home-to-bangladesh.md)
+- [Islamic Halaqah Links](islamic-halaqah-links.md)
+- [Mosques with English Khutbah](mosques-with-english-khutbah.md)
 - [Package](package.md)
 - [Renting a home](renting-a-home.md)
 - [Sending Cargo to Bangladesh](sending-cargo-to-bangladesh.md)

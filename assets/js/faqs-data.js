@@ -187,6 +187,28 @@ window.FAQ_DATA = [
     "body": "Can use wise.com\nAlso can use Merchantrade bank and app."
   },
   {
+    "id": "food-living-islamic-halaqah-links",
+    "title": "Islamic Halaqah Links",
+    "category": "Food / Living",
+    "categorySlug": "food-living",
+    "status": "needs-review",
+    "lastUpdated": "2026-05-11",
+    "lastEditedBy": "Nabil Mosharraf",
+    "path": "content/faqs/food-living/islamic-halaqah-links.md",
+    "body": "| Name | Type | Link | Notes |\n| :---- | :---- | :---- | :---- |\n| Revivers IIUM | Islamic programs and community events | [Website](https://revivers.co/) | Check the programs page and social channels for current sessions. |\n| Revivers IIUM Programs | Past and current program listings | [Programs](https://revivers.co/programs/) | Useful for halaqah-style talks, workshops, and tarbiyah programs. |"
+  },
+  {
+    "id": "food-living-mosques-with-english-khutbah",
+    "title": "Mosques with English Khutbah",
+    "category": "Food / Living",
+    "categorySlug": "food-living",
+    "status": "needs-answer",
+    "lastUpdated": "2026-05-11",
+    "lastEditedBy": "Nabil Mosharraf",
+    "path": "content/faqs/food-living/mosques-with-english-khutbah.md",
+    "body": "_This FAQ needs contributions._\n\n| Mosque | Khutbah language | Location | Notes | Map |\n| :---- | :---- | :---- | :---- | :---- |\n|  | English |  | Add verified Friday khutbah details. |  |"
+  },
+  {
     "id": "food-living-package",
     "title": "Package",
     "category": "Food / Living",
@@ -526,7 +548,7 @@ window.CATEGORY_DATA = [
   {
     "slug": "food-living",
     "title": "Food / Living",
-    "count": 17
+    "count": 19
   },
   {
     "slug": "jobs-taxes",

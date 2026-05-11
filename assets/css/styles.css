@@ -99,6 +99,81 @@ a:hover {
   font-size: 14px;
 }
 
+.videos-section {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 42px) 48px;
+}
+
+.videos-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.videos-header h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.video-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.video-thumb {
+  display: block;
+  aspect-ratio: 16 / 9;
+  background: #edf1f7;
+}
+
+.video-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-content {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 16px;
+}
+
+.video-content h3 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.video-content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.video-content .video-meta {
+  color: #46536b;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .site-footer p {
   margin: 0;
   padding-top: 22px;
@@ -364,6 +439,10 @@ h1 {
 }
 
 .chevron {
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
   color: var(--muted);
   font-size: 22px;
   line-height: 1;
@@ -444,6 +523,11 @@ h1 {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .videos-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 520px) {
@@ -472,6 +556,7 @@ h1 {
   }
 
   .faq-card summary {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) 28px;
+    gap: 10px;
   }
 }

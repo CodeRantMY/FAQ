@@ -3,6 +3,7 @@
   const faqs = window.FAQ_DATA || [];
   const categories = window.CATEGORY_DATA || [];
   const popularData = window.POPULAR_FAQ_DATA || [];
+  const videos = window.VIDEO_DATA || [];
   const byId = new Map(faqs.map((faq) => [faq.id, faq]));
 
   const els = {
@@ -11,6 +12,7 @@
     categoryList: document.getElementById("categoryList"),
     popularList: document.getElementById("popularList"),
     faqList: document.getElementById("faqList"),
+    videoGrid: document.getElementById("videoGrid"),
     activeMeta: document.getElementById("activeMeta"),
     newFaqLink: document.getElementById("newFaqLink")
   };
@@ -25,6 +27,7 @@
   initAnalytics();
   setAddLink();
   renderCategories();
+  renderVideos();
   render();
 
   window.addEventListener("hashchange", () => {
@@ -165,6 +168,32 @@
     `;
   }
 
+  function renderVideos() {
+    if (!els.videoGrid) return;
+    if (!videos.length) {
+      els.videoGrid.innerHTML = '<div class="empty-state">Videos will appear after the YouTube feed is refreshed.</div>';
+      return;
+    }
+
+    els.videoGrid.innerHTML = videos
+      .map(
+        (video) => `
+          <article class="video-card">
+            <a class="video-thumb" href="${escapeHtml(video.url)}" aria-label="Watch ${escapeHtml(video.title)}">
+              <img src="${escapeHtml(video.thumbnail)}" alt="">
+            </a>
+            <div class="video-content">
+              <h3>${escapeHtml(video.title)}</h3>
+              <p class="video-meta">${escapeHtml(formatVideoMeta(video))}</p>
+              <p>${escapeHtml(video.description || "Watch this CodeRant session on YouTube.")}</p>
+              <a class="button" href="${escapeHtml(video.url)}">Watch video</a>
+            </div>
+          </article>
+        `
+      )
+      .join("");
+  }
+
   function renderPopular() {
     const sitePopular = popularData
       .map((item) => ({ ...item, faq: byId.get(item.id) }))
@@ -249,6 +278,17 @@
   function formatLastEditedBy(value) {
     if (!value) return "Last edited by: Not recorded";
     return `Last edited by: ${value}`;
+  }
+
+  function formatVideoMeta(video) {
+    const parts = [];
+    if (video.published) {
+      parts.push(`Published ${video.published}`);
+    }
+    if (video.views) {
+      parts.push(`${video.views} views`);
+    }
+    return parts.join(" · ");
   }
 
   function stripMarkdown(markdown) {

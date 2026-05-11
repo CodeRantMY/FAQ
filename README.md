@@ -33,6 +33,7 @@ The **Add FAQ** button opens GitHub's create-file screen with a starter front ma
 - Full-text client-side search
 - One-click edit links for each FAQ
 - GitHub source links for each FAQ
+- YouTube videos section sourced from the public CodeRant channel feed
 - Frequently visited FAQ panel
 - Optional Plausible or GoatCounter analytics hooks
 
@@ -41,6 +42,7 @@ The **Add FAQ** button opens GitHub's create-file screen with a starter front ma
 After editing Markdown files or `analytics/popular.json`, rebuild the committed site data:
 
 ```bash
+python3 scripts/build_youtube_data.py
 python3 scripts/build_site_data.py
 ```
 
