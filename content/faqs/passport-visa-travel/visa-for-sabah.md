@@ -5,7 +5,6 @@ category: "Passport, Visa & Travel"
 category_slug: "passport-visa-travel"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 * Visit the Sabah government's official website or use the following URL: https://phednp.wixsite.com/website.

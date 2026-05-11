@@ -5,7 +5,6 @@ category: "Food / Living"
 category_slug: "food-living"
 status: "needs-review"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 | School | Pros | Cons / Notes | Estimated monthly cost | Map |

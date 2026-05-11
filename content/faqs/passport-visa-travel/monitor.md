@@ -5,7 +5,6 @@ category: "Passport, Visa & Travel"
 category_slug: "passport-visa-travel"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 [http://www.bangladesh-embassy.be/customs+related+information/list+of+dutiable+baggage+items](http://www.bangladesh-embassy.be/customs+related+information/list+of+dutiable+baggage+items)

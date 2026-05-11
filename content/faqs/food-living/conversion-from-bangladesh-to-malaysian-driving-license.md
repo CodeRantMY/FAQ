@@ -5,7 +5,6 @@ category: "Food / Living"
 category_slug: "food-living"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 [https://www.pavelsarwar.com/convert-your-bangladeshi-driving-license-to-a-malaysia-driving-license/](https://www.pavelsarwar.com/convert-your-bangladeshi-driving-license-to-a-malaysia-driving-license/)

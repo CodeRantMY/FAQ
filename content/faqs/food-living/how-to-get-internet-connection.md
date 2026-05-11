@@ -5,7 +5,6 @@ category: "Food / Living"
 category_slug: "food-living"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 In Malaysia, several internet service providers, including **Unifi** and **TIME**, both of them require a 500 RM deposit from foreigners when initiating a new internet connection. During the initial month, there is no payment required, making it effectively free.

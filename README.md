@@ -1,5 +1,7 @@
 # CodeRant FAQ
 
+[![CodeRant](coderant-logo.svg)](https://coderant.org)
+
 In Malaysia, CodeRant is the only community of tech professionals from Bangladesh. The invite-only WhatsApp group was formed in 2017, and has now grown to a 200+ members community!
 
 Our goal is to foster growth among Bangladeshi tech professionals, through community-driven initiatives, meetups, and career-centric programs. Our community has people from renowned companies like Amazon, AirAsia, Petronas, Chubb, Moneylion, etc., and consists of members with diversified technical, leadership, and entrepreneurial backgrounds.
@@ -8,9 +10,10 @@ We are committed to contributing to the Malaysian tech landscape as a group of e
 
 ## Browse the FAQs
 
-- Website entry point: [`index.html`](index.html)
+- Live FAQ website: [https://coderantmy.github.io/FAQ/](https://coderantmy.github.io/FAQ/)
+- CodeRant website: [https://coderant.org](https://coderant.org)
+- Local website entry point: [`index.html`](index.html)
 - GitHub-readable content: [`content/README.md`](content/README.md)
-- Original imported draft: [`FAQs_ CodeRant [Draft].md`](FAQs_%20CodeRant%20%5BDraft%5D.md)
 
 ## Content Structure
 

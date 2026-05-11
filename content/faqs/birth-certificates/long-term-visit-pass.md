@@ -5,7 +5,6 @@ category: "Birth / Certificates"
 category_slug: "birth-certificates"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 If you are doing for your parents-

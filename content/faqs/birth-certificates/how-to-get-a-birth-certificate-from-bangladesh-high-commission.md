@@ -5,7 +5,6 @@ category: "Birth / Certificates"
 category_slug: "birth-certificates"
 status: "answered"
 last_updated: "2023-08-02"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 For the babies born in Malaysia, you can’t generate the birth certificate from Bangladesh anymore\!

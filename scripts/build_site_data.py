@@ -60,7 +60,6 @@ def main() -> None:
             "status": meta["status"],
             "lastUpdated": meta.get("last_updated", ""),
             "lastEditedBy": get_last_edited_by(path),
-            "source": meta.get("source", ""),
             "path": relative_path,
             "body": body,
         }

@@ -5,7 +5,6 @@ category: "Passport, Visa & Travel"
 category_slug: "passport-visa-travel"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 ১ জুন থেকে বাজেটে ঘোষিত নিয়ম অনুযায়ী একজন যাত্রী ১১৭ গ্রাম ওজনের বেশি সোনার বার আনলে জব্দ করবে কাস্টমস। ফলে আগের মতো ২টি সোনার বার আনা যাবে না। সোনার বার আনলে সরাসরি রেড চ্যানেলে গিয়ে ঘোষণা করতে হবে।

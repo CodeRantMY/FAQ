@@ -5,7 +5,6 @@ category: "Jobs / Taxes"
 category_slug: "jobs-taxes"
 status: "answered"
 last_updated: "2026-05-11"
-source: "FAQs_ CodeRant [Draft].md"
 ---
 
 If you haven't received a tax refund, follow the steps below:
