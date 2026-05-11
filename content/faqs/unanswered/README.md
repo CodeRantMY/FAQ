@@ -1,0 +1,17 @@
+# Unanswered
+
+- [EPF](epf.md)
+- [How to close my Tax File?](how-to-close-my-tax-file.md)
+- [How to do a police report if got into car accident?](how-to-do-a-police-report-if-got-into-car-accident.md)
+- [How to Extend tourist Visa?](how-to-extend-tourist-visa.md)
+- [How to get an Umrah visa from Malaysia?](how-to-get-an-umrah-visa-from-malaysia.md)
+- [How to get Residence Pass Talent (RP-T) [Munim]](how-to-get-residence-pass-talent-rp-t-munim.md)
+- [How to get Tax Clearance certificate?](how-to-get-tax-clearance-certificate.md)
+- [Must I go to the LHDN office in person or just e submission will suffice?](must-i-go-to-the-lhdn-office-in-person-or-just-e-submission-will-suffice.md)
+- [Police Clearance from Malaysia](police-clearance-from-malaysia.md)
+- [Thailand Visa from Malaysia](thailand-visa-from-malaysia.md)
+- [Visa for Indonesia](visa-for-indonesia.md)
+- [Visa for Singapore](visa-for-singapore.md)
+- [Visa for Vietnam](visa-for-vietnam.md)
+- [What things to ask/keep when leaving a job?](what-things-to-ask-keep-when-leaving-a-job.md)
+- [Whats the current salary range for different levels of jobs?](whats-the-current-salary-range-for-different-levels-of-jobs.md)

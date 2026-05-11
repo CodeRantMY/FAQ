@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeRant FAQ</title>
+    <meta name="description" content="Community FAQ for Bangladeshi developers and families in Malaysia.">
+    <link rel="icon" href="CodeRant-copy.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="CodeRant FAQ home">
+        <img src="coderant-logo.svg" alt="CodeRant">
+        <span>FAQ</span>
+      </a>
+      <nav class="top-actions" aria-label="Primary">
+        <a href="content/README.md">GitHub-friendly docs</a>
+        <a href="https://github.com/CodeRantMY/FAQ">Repository</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="FAQ filters">
+        <div class="search-panel">
+          <form id="searchForm" role="search">
+            <label for="search">Search FAQs</label>
+            <input id="search" type="search" placeholder="birth certificate, tax, visa..." autocomplete="off">
+            <p class="search-hint">Results update as you type.</p>
+          </form>
+        </div>
+        <div>
+          <h2>Categories</h2>
+          <div id="categoryList" class="category-list"></div>
+        </div>
+        <div class="popular-panel">
+          <h2>Frequently visited</h2>
+          <div id="popularList" class="popular-list"></div>
+        </div>
+      </aside>
+
+      <section class="content-shell">
+        <div class="content-header">
+          <div>
+            <p class="eyebrow">Community Knowledge Base</p>
+            <h1>CodeRant Malaysia FAQ</h1>
+          </div>
+          <a class="button primary" id="newFaqLink" href="#">Add FAQ</a>
+        </div>
+        <div id="activeMeta" class="active-meta" aria-live="polite"></div>
+        <div id="faqList" class="faq-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made by <a href="https://nabilmh.com">nabilmh.com</a> for <a href="https://coderant.org">coderant.org</a>.</p>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/faqs-data.js"></script>
+    <script src="assets/js/popular-data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
